@@ -10,10 +10,12 @@ What is the average amount of debt owed by countries across different debt indic
 The data used in this project is provided by The World Bank. It contains both national and regional debt statistics for several countries across the globe as recorded from 1970 to 2015.
 
 **Skills applied**
+
 1. Data Manipulation
 2. Importing and Cleaning Data 
 
 **Dataset** 
+
 The table international_debt can be found on the international_debt database, which can be accessed using SQL and Python in Jupyter Notebook. The sample table (first 10 rows) looks like this:
 
 <img width="506" alt="image" src="https://user-images.githubusercontent.com/58279797/153732671-c8bef5cd-b667-40fd-b2a5-55ca4d0cd2ec.png">
