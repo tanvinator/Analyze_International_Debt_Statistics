@@ -157,9 +157,10 @@ In this notebook, we took a look at debt owed by countries across the globe. We 
   
   ### Inference
 
-    6 indicators have 124 appearances each in the dataset.  
-        
-<img width="504" alt="image" src="https://user-images.githubusercontent.com/58279797/153735691-e51a3673-6534-48b0-b329-100b201824ac.png">
+    China owes the maximum debt, followed by Brazil. Top 10 countries are shown.
+    
+<img width="506" alt="image" src="https://user-images.githubusercontent.com/58279797/153735722-8c636537-f92f-42eb-9859-0de5d0dd268f.png">
+
 
 
 
