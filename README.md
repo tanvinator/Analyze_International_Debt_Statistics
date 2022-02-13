@@ -45,7 +45,8 @@ Without a count of unique countries, we will not be able to perform our statisti
 We can see there are a total of 124 countries present on the table. As we saw in the first section, there is a column called indicator_name that briefly specifies the purpose of taking the debt. Just beside that column, there is another column called indicator_code which symbolizes the category of these debts. Knowing about these various debt indicators will help us to understand the areas in which a country can possibly be indebted to.
 
   ### Approach:
-      In order to get unique values of debt indicators, indicator_code column is used. The result is arranged alphabetically using the ORDER BY clause.
+      In order to get unique values of debt indicators, indicator_code column is used. 
+      The result is arranged alphabetically using the ORDER BY clause.
 
   ### Inference
 
