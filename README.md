@@ -105,9 +105,27 @@ We now have a brief overview of the dataset and a few of its summary statistics.
 
   ### Inference
 
-    Top 10 debt indicators are listed with respective average debts in that category.
+    Top 10 debt indicators are listed with respective average debts in that category. The DT.AMT.DLXF.CD indicator tops the list. 
     
 <img width="505" alt="image" src="https://user-images.githubusercontent.com/58279797/153734966-ae76cfe3-8c92-4873-94a5-64938fb0c5fc.png">
+
+## **6. The highest amount of principal repayments**
+
+We can see that the indicator DT.AMT.DLXF.CD tops the chart of average debt. This category includes repayment of long term debts. Countries take on long-term debt to acquire immediate capital. 
+An interesting observation in the above finding is that there is a huge difference in the amounts of the indicators after the second one. This indicates that the first two indicators might be the most severe categories in which the countries owe their debts.
+
+We can investigate this a bit more so as to find out which country owes the highest amount of debt in the category of long term debts (DT.AMT.DLXF.CD). Since not all the countries suffer from the same kind of economic disturbances, this finding will allow us to understand that particular country's economic condition a bit more specifically.
+
+  ### Approach:
+  
+    WHERE clause can be used to filter the results. Filter can be induced by writing a sub query to invoke the row with maximum debt.
+  
+  ### Inference
+
+    China has the highest debt in 'Principal repayments on external debt, long-term (AMT, current US$)' category of debts. 
+    
+<img width="503" alt="image" src="https://user-images.githubusercontent.com/58279797/153735301-e819ca13-9706-402a-8d55-71bed97b77db.png">
+
 
 
 
