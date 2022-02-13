@@ -64,13 +64,16 @@ Let's switch gears from the debt indicators now and find out the total amount of
   ### Approach:
     The functions to be used are 
 
-      COUNT: Gives the total number of rows of the argument.
+      SUM: Gives the total sum of values of the argument.
 
-      DISTINCT: Filters out the unique values of the argument
+      ROUND: Rounds up the value to specified number of decimals, 2 in this case.
 
   ### Inference
 
-    There are 124 unique countries listed in the database.
+    The total debt owed by all the countries to the World bank (reduced scale) is USD 3079734.49 ONLY.
+    
+<img width="504" alt="image" src="https://user-images.githubusercontent.com/58279797/153733343-4e63436d-dc3a-43ad-88b7-e5c62f0425a1.png">
+
 
 
 
