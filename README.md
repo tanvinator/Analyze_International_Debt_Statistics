@@ -16,7 +16,7 @@ The data used in this project is provided by The World Bank. It contains both na
 
 # **Dataset** 
 
-The table international_debt can be found on the international_debt database, which can be accessed using SQL and Python in Jupyter Notebook. Access to the database is restricted. The sample table (first 10 rows) looks like this:
+The table international_debt can be found on the international_debt database, which can be accessed using SQL and Python in Jupyter Notebook. The sample table (first 10 rows) looks like this:
 
 <img width="506" alt="image" src="https://user-images.githubusercontent.com/58279797/153732671-c8bef5cd-b667-40fd-b2a5-55ca4d0cd2ec.png">
 
