@@ -27,6 +27,9 @@ From the first ten rows, we can see the amount of debt owed by Afghanistan in th
 
 Without a count of unique countries, we will not be able to perform our statistical analyses holistically. In this section, we are going to extract the number of unique countries present in the table.
 
+<img width="506" alt="image" src="https://user-images.githubusercontent.com/58279797/153732853-481eec91-3537-46ac-b5ae-b76cc1328290.png">
+
+
 
 
 
