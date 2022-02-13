@@ -40,6 +40,26 @@ Without a count of unique countries, we will not be able to perform our statisti
 
 <img width="506" alt="image" src="https://user-images.githubusercontent.com/58279797/153732853-481eec91-3537-46ac-b5ae-b76cc1328290.png">
 
+## **2. Finding out the distinct debt indicators**
+
+We can see there are a total of 124 countries present on the table. As we saw in the first section, there is a column called indicator_name that briefly specifies the purpose of taking the debt. Just beside that column, there is another column called indicator_code which symbolizes the category of these debts. Knowing about these various debt indicators will help us to understand the areas in which a country can possibly be indebted to.
+
+  ### Approach:
+      In order to get unique values of debt indicators, indicator_code column is used. The result is arranged alphabetically using the ORDER BY clause.
+
+  ### Inference
+
+    There are 25 distinct debt indicators listed in the database, which are listed alphabetically.
+    
+<img width="507" alt="image" src="https://user-images.githubusercontent.com/58279797/153733138-72c4ef0c-c24d-4326-8fef-6edeba97af17.png">
+<img width="89" alt="image" src="https://user-images.githubusercontent.com/58279797/153733155-25563a3c-1e14-4ae8-95d3-b66e36cf34de.png">
+
+
+
+
+
+
+
 
 
 
