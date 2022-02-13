@@ -126,6 +126,43 @@ We can investigate this a bit more so as to find out which country owes the high
     
 <img width="503" alt="image" src="https://user-images.githubusercontent.com/58279797/153735301-e819ca13-9706-402a-8d55-71bed97b77db.png">
 
+## **7. The most common debt indicator**
+
+China has the highest amount of debt in the long-term debt (DT.AMT.DLXF.CD) category. This is verified by The World Bank. It is often a good idea to verify our analyses like this since it validates that our investigations are correct.
+
+We saw that long-term debt is the topmost category when it comes to the average amount of debt. But is it the most common indicator in which the countries owe their debt? Let's find that out.
+
+  ### Approach:
+  
+    Aggregate function COUNT can be used find the frequency of each indicator and grouped by the indicator code.
+  
+  ### Inference
+
+    6 indicators have 124 appearances each in the dataset.  
+    
+<img width="504" alt="image" src="https://user-images.githubusercontent.com/58279797/153735507-ab2d76da-1a91-4cc4-aec8-efb8c2128441.png">
+<img width="113" alt="image" src="https://user-images.githubusercontent.com/58279797/153735518-e2885f68-0509-4014-a2b8-94604a546888.png">
+
+## **8. Other viable debt issues and coclusion**
+
+There are a total of six debt indicators in which all the countries listed in our dataset have taken debt. The indicator DT.AMT.DLXF.CD is also there in the list. So, this gives us a clue that all these countries are suffering from a common economic issue. But that is not the end of the story, but just a part of the story.
+
+Let's change tracks from debt_indicators now and focus on the amount of debt again. Let's find out the maximum amount of debt that each country has. With this, we will be in a position to identify the other plausible economic issues a country might be going through.
+
+In this notebook, we took a look at debt owed by countries across the globe. We extracted a few summary statistics from the data and unraveled some interesting facts and figures. We also validated our findings to make sure the investigations are correct.
+
+  ### Approach:
+  
+    Aggregate function MAX can be used find the maximum debt owed by each country.
+  
+  ### Inference
+
+    6 indicators have 124 appearances each in the dataset.  
+        
+<img width="504" alt="image" src="https://user-images.githubusercontent.com/58279797/153735691-e51a3673-6534-48b0-b329-100b201824ac.png">
+
+
+
 
 
 
