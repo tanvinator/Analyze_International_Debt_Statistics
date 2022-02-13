@@ -34,6 +34,10 @@ COUNT: Gives the total number of rows of the argument.
 
 DISTINCT: Filters out the unique values of the argument
 
+### Inference
+
+There are 124 unique countries listed in the database.
+
 <img width="506" alt="image" src="https://user-images.githubusercontent.com/58279797/153732853-481eec91-3537-46ac-b5ae-b76cc1328290.png">
 
 
