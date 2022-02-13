@@ -29,7 +29,9 @@ Without a count of unique countries, we will not be able to perform our statisti
 
 ### Approach:
 The functions to be used are 
+
 COUNT: Gives the total number of rows of the argument.
+
 DISTINCT: Filters out the unique values of the argument
 
 <img width="506" alt="image" src="https://user-images.githubusercontent.com/58279797/153732853-481eec91-3537-46ac-b5ae-b76cc1328290.png">
