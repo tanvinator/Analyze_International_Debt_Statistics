@@ -50,7 +50,7 @@ We can see there are a total of 124 countries present on the table. As we saw in
 
   ### Inference
 
-    There are 25 distinct debt indicators listed in the database, which are listed alphabetically.
+    There are 25 distinct debt indicators listed in the database, which are arranged alphabetically.
     
 <img width="507" alt="image" src="https://user-images.githubusercontent.com/58279797/153733138-72c4ef0c-c24d-4326-8fef-6edeba97af17.png">
 <img width="89" alt="image" src="https://user-images.githubusercontent.com/58279797/153733155-25563a3c-1e14-4ae8-95d3-b66e36cf34de.png">
