@@ -70,7 +70,7 @@ Let's switch gears from the debt indicators now and find out the total amount of
 
   ### Inference
 
-    The total debt owed by all the countries to the World bank (reduced scale) is USD 3079734.49 ONLY.
+    The total debt owed by all the countries to the World bank (reduced scale by 1000000) is USD 3079734.49 ONLY.
     
 <img width="504" alt="image" src="https://user-images.githubusercontent.com/58279797/153733343-4e63436d-dc3a-43ad-88b7-e5c62f0425a1.png">
 
