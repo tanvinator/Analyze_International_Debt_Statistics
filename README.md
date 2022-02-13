@@ -75,6 +75,42 @@ Let's switch gears from the debt indicators now and find out the total amount of
 <img width="504" alt="image" src="https://user-images.githubusercontent.com/58279797/153733343-4e63436d-dc3a-43ad-88b7-e5c62f0425a1.png">
 
 
+## **4. Country with the Highest debt**
+
+"Human beings cannot comprehend very large or very small numbers. It would be useful for us to acknowledge that fact." - Daniel Kahneman. That is more than 3 million million USD, an amount which is really hard for us to fathom.
+
+Now that we have the exact total of the amounts of debt owed by several countries, let's now find out the country that owns the highest amount of debt along with the amount. Note that this debt is the sum of different debts owed by a country across several categories. This will help to understand more about the country in terms of its socio-economic scenarios. We can also find out the category in which the country owns its highest debt. But we will leave that for now.
+
+  ### Approach:
+  
+    Aggregate function SUM can be used to group the debts based on the country names, using the GROUP BY clause.
+    ORDER BY ... DESC can be used to order the debts in a descending order.
+
+  ### Inference
+
+    The country with the highest debt is China, with the total debt of USD 285793494734.20.
+    
+<img width="506" alt="image" src="https://user-images.githubusercontent.com/58279797/153734737-3a58ab96-49a9-4efc-b35a-9e05319136cf.png">
+
+
+## **5. Average amount of debts across indicators**
+
+So, it was China. A more in-depth breakdown of China's debts can be found here.
+
+We now have a brief overview of the dataset and a few of its summary statistics. We already have an idea of the different debt indicators in which the countries owe their debts. We can dig even further to find out on an average how much debt a country owes? This will give us a better sense of the distribution of the amount of debt across different indicators.
+  
+  ### Approach:
+    Aggregate function AVG can be used to group the debts based on the debt indicator, using the GROUP BY clause.
+    ORDER BY ... DESC can be used to order the debts in a descending order.
+
+  ### Inference
+
+    Top 10 debt indicators are listed with respective average debts in that category.
+    
+<img width="505" alt="image" src="https://user-images.githubusercontent.com/58279797/153734966-ae76cfe3-8c92-4873-94a5-64938fb0c5fc.png">
+
+
+
 
 
 
