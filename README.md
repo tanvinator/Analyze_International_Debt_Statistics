@@ -55,6 +55,25 @@ We can see there are a total of 124 countries present on the table. As we saw in
 <img width="507" alt="image" src="https://user-images.githubusercontent.com/58279797/153733138-72c4ef0c-c24d-4326-8fef-6edeba97af17.png">
 <img width="89" alt="image" src="https://user-images.githubusercontent.com/58279797/153733155-25563a3c-1e14-4ae8-95d3-b66e36cf34de.png">
 
+## **3. Totalling the amount of debt owed by the countries**
+
+As mentioned earlier, the financial debt of a particular country represents its economic state. But if we were to project this on an overall global scale, how will we approach it?
+
+Let's switch gears from the debt indicators now and find out the total amount of debt (in USD) that is owed by the different countries. This will give us a sense of how the overall economy of the entire world is holding up.
+
+  ### Approach:
+    The functions to be used are 
+
+      COUNT: Gives the total number of rows of the argument.
+
+      DISTINCT: Filters out the unique values of the argument
+
+  ### Inference
+
+    There are 124 unique countries listed in the database.
+
+
+
 
 
 
